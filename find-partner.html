@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="find-partner-form">
+            <h1>Mate Finder</h1>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Masukan Nama Kamu">
+                </form>
+            </div>
+            <p>Gender Kamu</p>
+            <div class="gender">
+                
+                <button onclick="findFemalePartner()" id="btn1">Laki Laki</button>
+                <button onclick="findMalePartner()" id="btn2">Perempuan</button>
+            </div>
+            <div class="result-button">
+                <button onclick="partnerResult()">Cari Jodoh!</button>
+            </div>
+            
+            <p id="result"></p>
+            <div class="back">
+               <a href="index.html">Kembali</a>
+            </div>
+             
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
