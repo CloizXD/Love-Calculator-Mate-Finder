@@ -78,7 +78,7 @@ p#result {
     text-align: center;
     color: rgb(155, 47, 97);
     padding-block: 10px;
-    height: 40px;
+    height: 100%;
     background-color: rgb(255, 235, 247);
     width: 100%;
 }
