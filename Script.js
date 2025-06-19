@@ -5,8 +5,10 @@ let randomPick;
 let randomPickIndex;
 let findPartnerResult;
 const alertResult = "Masukan Nama Terlebih Dahulu!";
-const malePartner = ["Gibran","Luhut Panjaitan","Jimin","Akmal","Jefri Nichole","Dipta","Ali","Rakabuming","Ravendra","Akbar"]
-const femalePartner = ["Anika","Mawar","Nami","Hoshina","Chitanda","Ada Wong","Lara","Nina","Novia","Salsabila"]
+
+//list Partner
+const malePartner = ["Kazehaya","Luhut Panjaitan","Jimin","Akmal","Jefri Nichole","Dipta","Ali","Soke Bahtera","WIndah","Zoro"]
+const femalePartner = ["Jenny","Fern","Nami","Hoshina","Chitanda","Ada Wong","Elysia","Chizuru","Shina Mahiru","Sawako"]
 
 const btn1 = document.getElementById("btn1");
 const btn2 = document.getElementById("btn2");
@@ -66,3 +68,4 @@ function partnerResult(){
     }
 }
     
+console.log(malePartner);
